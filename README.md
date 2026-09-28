@@ -34,8 +34,10 @@ El portafolio fue construido y adaptado siguiendo estas etapas:
 
 ## 📸 Capturas de Pantalla
 
-**Vista General del Portafolio (Sección Inicial y Hero):**
-![Vista General](img/portafolio-hero.png)
+**Vista General del Portafolio:**
+![Vista General](img/inicio.png)
+![Vista informacion](img/inicio2.png)
 
 **Secciones de Habilidades (Skills) y Proyectos:**
-![Skills y Proyectos](img/portafolio-skills-proyectos.png)
+![Skills](img/habilidades.png)
+![Proyectos](img/proyectos.png)
