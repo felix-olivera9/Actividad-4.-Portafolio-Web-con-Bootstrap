@@ -1,43 +1,42 @@
-#  Portafolio Profesional - Usando una plantilla de Bootstrap
+# Portafolio Profesional - Usando una plantilla de Bootstrap
 
-
-##  Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto consiste en un **portafolio profesional personal** diseñado para exhibir de manera limpia y responsiva la perfilación académica, habilidades técnicas y proyectos de desarrollo de software.
 
-* **Framework CSS utilizado:** **Bootstrap 5** (cargado mediante CDN oficial para un rendimiento óptimo sin dependencias complejas de compilación).
-* **Plantilla base:** Adaptación personalizada de estructura moderna orientada a portafolios dev de una sola página (*Single Page Application* con scroll suave).
-* **Enlace de referencia de Bootstrap:** [Bootstrap 5 Documentation](https://getbootstrap.com/)
-
-### Secciones que componen el Portafolio:
-1. **Inicio / Hero Section:** Cabecera de alto impacto visual con fotografía de perfil profesional, título del rol (Desarrollador Full-Stack) y botones de llamada a la acción (*Call to Action*).
-2. **Sobre Mí:** Breve resumen de la trayectoria académica como estudiante de ingeniería en sistemas computacionales en el TecNM Campus Oaxaca y enfoque profesional.
-3. **Habilidades (Skills):** Cuadrícula dividida por categorías técnicas (Frontend, Backend & Base de Datos, Herramientas & DevOps) que engloban tecnologías reales y aspiracionales.
-4. **Proyectos Destacados:** Tarjetas interactivas con descripciones de software desarrollado (como *EcoRelief* y sistemas de gestión para gimnasios) acompañadas de sus tecnologías correspondientes.
-5. **Contacto:** Sección interactiva con canales de comunicación directa y correo electrónico institucional.
+* **Plantilla base utilizada:** Se descargó y adaptó la plantilla [MyPage de BootstrapMade](https://bootstrapmade.com/mypage-bootstrap-personal-template/), basada en **Bootstrap 5**, orientada a portafolios personales de una sola página (*Single Page Application*).
+* **Secciones que componen el Portafolio:**
+  1. **Inicio / Hero Section:** Cabecera de alto impacto visual con fotografía de perfil profesional real, título del rol (Ingeniería en Sistemas & Desarrollador Full-Stack) y botones de llamada a la acción.
+  2. **Sobre Mí (About):** Resumen de la trayectoria académica como estudiante de ingeniería en sistemas computacionales en el TecNM Campus Oaxaca y enfoque en desarrollo y bases de datos.
+  3. **Estadísticas (Stats):** Datos clave y logros del perfil académico.
+  4. **Currículum (Resume):** Línea de tiempo de proyectos recientes (*EcoRelief*, sistema de gimnasios) y formación superior.
+  5. **Servicios (Services):** Oferta de soluciones en desarrollo Full-Stack, bases de datos y contenedores.
+  6. **Habilidades (Skills):** Cuadrícula y barras de progreso divididas por categorías técnicas (TypeScript, NestJS, PostgreSQL, Docker, etc.).
+  7. **Proyectos Destacados (Portfolio):** Tarjetas interactivas con descripciones de software desarrollado y tecnologías correspondientes.
+  8. **Contacto (Contact):** Sección interactiva con canales de comunicación directa y formulario de contacto.
 
 ---
 
-##  Proceso de Creación (Paso a Paso)
+## Proceso de Creación (Paso a Paso)
 
 El portafolio fue construido y adaptado siguiendo estas etapas:
 
-1. **Estructuración del Entorno:** Se creó la arquitectura base del proyecto separando los archivos estáticos en carpetas limpias (`/css/styles.css`, `/js/main.js` y el archivo principal `index.html`).
-2. **Integración de Bootstrap 5:** Se configuraron los enlaces CDN de los estilos CSS y los paquetes de JavaScript de Bootstrap en las etiquetas correspondientes del documento HTML para garantizar la adaptabilidad en dispositivos móviles y computadoras.
-3. **Personalización de Contenido y Estilos:** 
-   * Se modificó la barra de navegación (`navbar`) para que se mantenga fija en la parte superior con un efecto de sombra y desplazamiento fluido (*smooth scroll*).
-   * Se incorporó una fotografía de perfil real con bordes redondeados y efectos *hover* de transición.
-   * Se redactaron las secciones de *Skills* y *Proyectos* integrando datos profesionales reales del área de sistemas computacionales.
-4. **Pruebas y Despliegue:** Se validó el comportamiento responsivo en distintas resoluciones de pantalla y se configuró el repositorio para su publicación en vivo mediante **GitHub Pages**.
+1. **Descarga y Estructuración:** Se descargó la plantilla oficial desde [BootstrapMade](https://bootstrapmade.com/mypage-bootstrap-personal-template/), organizando los archivos estáticos en las carpetas correspondientes (`/assets`, `/css`, `/js`, `/img`).
+2. **Eliminación y Limpieza de Archivos:** Se depuraron los archivos temporales y textos predeterminados de la plantilla para unificar la estructura del repositorio.
+3. **Personalización del Código (`index.html`):** 
+   * Se modificaron los textos en inglés de todas las secciones (*Hero*, *About*, *Stats*, *Resume*, *Services*, *Skills*, *Portfolio*, *Contact*) para reflejar la identidad y perfil profesional real en el TecNM Campus Oaxaca.
+   * Se incorporó una fotografía de perfil real en la cabecera y en la sección *About*.
+   * Se actualizaron los enlaces y descripciones de los proyectos académicos (*EcoRelief* y el sistema de gestión para gimnasios).
+4. **Pruebas y Despliegue:** Se validó el comportamiento responsivo en el navegador localmente y se configuró el repositorio para su publicación en vivo mediante **GitHub Pages**.
 
 ---
 
 ## 📸 Capturas de Pantalla
 
 **Vista General del Portafolio:**
-![Vista General](img/inicio.png)
-![Vista informacion](img/inicio2.png)
+![Vista General](img1/inicio1.png)
+![Vista informacion](img1/inicio22.png)
 
 **Secciones de Habilidades (Skills) y Proyectos:**
-![Skills](img/habilidades.png)
-![Proyectos](img/proyectos.png)
+![Skills](img1/habi1.png)
+![Proyectos](img1/pro1.png)
